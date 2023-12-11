@@ -1,0 +1,52 @@
+body {
+    background-color: var(--white);
+}
+
+body.active {
+    --white: #221f1f;
+    --black: #fff;
+}
+
+* {
+    transition: all .2s linear;
+    margin: 0; padding: 0;
+}
+
+:root {
+    --white: #fff;
+    --black: #1a1616;
+}
+
+.navbar {
+    background: red;
+    text-align: center;
+    height: 80px;
+    font-size: 1.9rem;
+    color: white;
+}
+
+.navbar .fa-moon {
+    position: relative;
+    left: 800px; top: -35px;
+    padding: 20px 0;
+    border-radius:.5rem .5rem .5rem .5rem ;
+    background-color: green;
+    width: 100px; height: 40px;
+}
+
+.fa-moon:hover {
+    border: 2px solid black;
+}
+
+.navbar p {
+    position: relative;
+    top: 20px;
+}
+
+#img {
+    position: relative;
+    width: 500px; height: 500px;
+    top: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+}
